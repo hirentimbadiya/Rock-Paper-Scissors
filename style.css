@@ -6,7 +6,7 @@ html , body{
 }
 
 .wrapper{
-    background-color: rgba(39, 6, 79, 0.89);
+    background-color: #1c1c1c;
     color: white;
     display: flex;
     justify-content: center;
@@ -22,11 +22,16 @@ html , body{
 }
 
 button{
+    border: 3px solid black;
     width: 100px;
     height: 100px;
     font-size: 48px;
     border-radius: 30px;
     cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    border: 4px solid yellow;
 }
 
 .resultContainer{

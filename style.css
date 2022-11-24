@@ -6,7 +6,7 @@ html , body{
 }
 
 .wrapper{
-    background-color: #1c1c1c;
+    background-color: #1c1c1ce5;
     color: white;
     display: flex;
     justify-content: center;
@@ -23,8 +23,8 @@ html , body{
 
 button{
     border: 3px solid black;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     font-size: 48px;
     border-radius: 30px;
     cursor: pointer;

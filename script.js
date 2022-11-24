@@ -64,11 +64,11 @@ function showResult(score, playerChoice, computerChoice) {
     // You should do result.innerText = 'You Lose!'
     // Don't forget to grab the div with the 'result' id!
     if (score === -1) {
-        document.getElementById("result").innerText = "Oops You Lose!!"
+        document.getElementById("result").innerText = "Oops You Lose!!";
     }else if (score === 0) {
-        document.getElementById("result").innerText = "Game Tied!!" 
+        document.getElementById("result").innerText = "Game Tied!!";
     }else{
-        document.getElementById("result").innerText = "Congrats You won!!" 
+        document.getElementById("result").innerText = "Congrats You won!!";
     }
 
     document.getElementById('hands').innerText = `👦🏻${playerChoice} vs 🤖${computerChoice}`

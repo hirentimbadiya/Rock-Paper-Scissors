@@ -6,7 +6,7 @@ html , body{
 }
 
 .wrapper{
-    background-color: #1c1c1c;
+    background-color: rgba(39, 6, 79, 0.89);
     color: white;
     display: flex;
     justify-content: center;

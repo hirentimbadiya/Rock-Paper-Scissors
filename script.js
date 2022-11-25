@@ -1,3 +1,4 @@
+// total score object which takes computer score and player score.
 const totalScore = {
     computerScore : 0,
     playerScore : 0
@@ -11,7 +12,6 @@ function getComputerChoice() {
 }
 
 // ** getResult compares playerChoice & computerChoice and returns the score accordingly **
-
 function getResult(playerChoice, computerChoice) {
     // return the result of score based on if you won, drew, or lost
     let score;

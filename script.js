@@ -84,11 +84,16 @@ function playGame() {
 
 // ** endGame function clears all the text on the DOM **
 function endGame() {
+    playSound("wrong");
     totalScore['playerScore'] = 0;
     totalScore['computerScore'] = 0;
     document.getElementById("result").innerText = "";
     document.getElementById("player-score").innerText = "";
     document.getElementById("hands").innerText = "";
 }
-
+// function for playing the audio for each color
+function playSound(audioName) {
+    let audio = new Audio("Audio/" + audioName + ".mp3");
+    audio.play();
+}
 playGame()

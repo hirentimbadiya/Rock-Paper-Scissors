@@ -7,7 +7,6 @@ const totalScore = {
 function getComputerChoice() {
     const arr = ['Rock', 'Paper', 'Scissors'];
     const ran = arr[Math.floor(Math.random() * arr.length)];
-    console.log(ran);
     return ran;
 }
 

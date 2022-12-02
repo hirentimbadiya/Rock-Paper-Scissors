@@ -65,6 +65,8 @@ function onClickRPS(playerChoice) {
     addColor(score);
 }
 
+// adds the color according to the result of the player
+// green is wins , red if loses and yellow for draw
 function addColor(score) {
     if (score == 0) {
         document.getElementById("result").style = "color : yellow; margin-bottom : 20px";
